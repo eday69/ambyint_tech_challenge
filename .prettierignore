@@ -1,0 +1,10 @@
+# Ignore artifacts:
+.idea/
+.vscode/
+build/
+coverage
+logs
+node_modules/
+.DS_Store
+.env
+

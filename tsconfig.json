@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "target": "es2016",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictNullChecks": true,
+    "outDir": "build",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["app/types/*"]
+    },
+  },
+  "exclude": ["node_modules"],
+  "include": ["app/**/*", "__tests__/**/*"]
+}
